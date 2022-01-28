@@ -1,9 +1,9 @@
 import Button from './Button'
 const Header = () => {
    return (
-      <header className="flex justify-between align-middle p-4">
+      <header className="flex justify-between align-middle p-4 mb-8">
          <div className="flex">
-            <img className="inline self-baseline" src="/public/assets/fav-icon.svg" alt="" />
+            <img className="inline self-baseline" src="/assets/fav-icon.svg" alt="" />
             <h4 className="inline self-baseline">POBPOOM</h4>
          </div>
          <div className="flex gap-4">
