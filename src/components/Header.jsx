@@ -1,4 +1,4 @@
-import Button from './Button'
+import HeaderButton from './HeaderButton'
 const Header = () => {
    return (
       <header className="flex justify-between align-middle p-4 mb-8">
@@ -7,9 +7,9 @@ const Header = () => {
             <h4 className="inline self-baseline">POBPOOM</h4>
          </div>
          <div className="flex gap-4">
-            <Button value="<Project />"></Button>
-            <Button value="<Experience />"></Button>
-            <Button value="<Contact />"></Button>
+            <HeaderButton value="<Project />"></HeaderButton>
+            <HeaderButton value="<Experience />"></HeaderButton>
+            <HeaderButton value="<Contact />" target="contact"></HeaderButton>
          </div>
       </header>
    )

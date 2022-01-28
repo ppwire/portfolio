@@ -3,7 +3,7 @@ import Button from './Button'
 const About = () => {
 
    const onClick = () => {
-      window.location.assign('https://docs.google.com/document/d/1rqtkpJWKlk8ksRUuLhszJFgZd441fWpu/edit?usp=sharing&ouid=114866621988823577924&rtpof=true&sd=true');
+      window.open('https://docs.google.com/document/d/1rqtkpJWKlk8ksRUuLhszJFgZd441fWpu/edit?usp=sharing&ouid=114866621988823577924&rtpof=true&sd=true', "_blank");
    }
    return (
       <div className="section">
