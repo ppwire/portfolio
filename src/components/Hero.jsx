@@ -3,7 +3,7 @@ const Hero = () => {
    return (
       <div className="flex flex-wrap gap-10 ">
          <div className="hero-img">
-            <img src="/assets/profile-pic-lg.png" alt="" className="card-shadow " />
+            <img src="/assets/profile-pic-lg.png" alt="pobpoom-hero" className="thick-shadow " />
          </div>
          <div className="self-center hero-text hero">
             <h1>Hi, I'm Poom Muangthai</h1>

@@ -1,11 +1,12 @@
-.solid-shadow {
-   box-shadow: 4px 4px 0px #000000;
-}
-
-.card-shadow {
+.thick-shadow {
    box-shadow: 8px 8px 0px #000000;
 }
 
-.hero-text > *{
-   line-height:100%
+.card-solid-shadow {
+   @apply border-2 border-black bg-white;
+   box-shadow: 4px 4px 0px #000000;
+}
+
+.hero-text>* {
+   line-height: 100%
 }

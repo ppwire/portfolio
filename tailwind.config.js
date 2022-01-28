@@ -10,6 +10,9 @@ module.exports = {
         '2xl': '2.369rem',
         '3xl': '3.157rem',
         '4xl': '4.209rem',
+      },
+      colors:{
+        'secondary':'#FAF1F1'
       }
     },
   },

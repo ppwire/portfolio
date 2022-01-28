@@ -1,0 +1,15 @@
+@keyframes slide-down {
+   0% {
+      opacity: 0;
+      transform: translateY(-50%);
+   }
+
+   100% {
+      opacity: 100%;
+      transform: translateY(0%);
+   }
+}
+
+.section{
+   animation: slide-down 2s;
+}
