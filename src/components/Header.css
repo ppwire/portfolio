@@ -11,10 +11,6 @@
    padding: 1rem;
 }
 
-.sidebar-list > li:not(:last-child) {
-   margin-bottom:1rem;
-}
-
 .sidebar.active {
    right: 0;
    transition: 350ms;

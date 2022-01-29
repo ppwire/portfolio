@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import HeaderButton from './HeaderButton'
+import SidebarButton from './SideBarButton'
 import NavIcon from '/assets/nav-icon.svg'
 import './Header.css'
 const Header = () => {
@@ -62,7 +63,8 @@ const Header = () => {
                   <br />
                   {
                      navData.map((el, index) => {
-                        return <li className="card-solid-shadow cursor-pointer transition duration-300 hover:translate-y-1 text-center" key={index}>{el.value}</li>
+                        return <SidebarButton  key={index} 
+                        value={el.value} target={el.target}></SidebarButton>
                      })
                   }
                </ul>
