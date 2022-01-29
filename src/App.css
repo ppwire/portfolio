@@ -7,6 +7,18 @@
    box-shadow: 4px 4px 0px #000000;
 }
 
+
+.project-card {
+   @apply border-2 border-black bg-white max-w-sm;
+   box-shadow: 4px 4px 0px #000000;
+}
+
+.project-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
 .hero-text>* {
    line-height: 100%
 }
