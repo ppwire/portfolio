@@ -18,7 +18,7 @@ const Skill = () => {
       }
    ]
    return (
-      <div className="flex gap-6">
+      <div className="flex flex-col lg:flex-row gap-6">
          {data.map((el, index) => {
             return <SkillItem key={index}  title={el.title} icon={el.icon} list={el.list} ></SkillItem>
          })}

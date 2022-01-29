@@ -1,0 +1,21 @@
+.sidebar {
+   background-color: white;
+   width: 200px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   top: 0;
+   right: -100%;
+   transition: 850ms;
+   padding: 1rem;
+}
+
+.sidebar-list > li:not(:last-child) {
+   margin-bottom:1rem;
+}
+
+.sidebar.active {
+   right: 0;
+   transition: 350ms;
+}
