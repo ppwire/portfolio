@@ -2,13 +2,12 @@ const TimelineItem = ({ data }) => {
    return (
       <div className="timeline-item">
          <div className="timeline-item-content card-solid-shadow p-2">
-            <h4>{data.title}</h4>
-            <h5>{data.date}</h5>
-            <h5>{data.status}</h5>
-            <p>{data.detail}</p>
+            <h5 className="font-bold">{data.title}</h5>
+            <p>{data.date}</p>
+            <p className="underline font-semibold">{data.status}</p>
+            <p className="text-gray-600">{data.detail}</p>
            
          </div>
-         <span className="circle" />
       </div>
    )
 }
