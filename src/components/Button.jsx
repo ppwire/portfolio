@@ -10,7 +10,7 @@ const Button = ({ value, onClick, addOnStyle }) => {
       <button className={btnStyle}
          onClick={onClick}
       >
-         <h5> {value}</h5>
+         <p> {value}</p>
       </button>
    )
 }
