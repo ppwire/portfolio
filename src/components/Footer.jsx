@@ -19,7 +19,7 @@ const Footer = () => {
       },
    ]
    return (
-      <div className="footer bg-secondary p-8" id="contact">
+      <div className="footer border-gray border-t-2  p-8" id="contact">
          <h4 className="font-light">Contact</h4>
          <span >
             {footerItem.map((el, index) => {

@@ -24,8 +24,8 @@ const Header = () => {
          target: 'project'
       },
       {
-         value: '<Experience />',
-         target: 'experience'
+         value: '<Experiences />',
+         target: 'experiences'
       },
       {
          value: '<Contact />',

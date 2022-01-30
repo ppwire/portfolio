@@ -7,6 +7,38 @@
    box-shadow: 4px 4px 0px #000000;
 }
 
+.timeline-container {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.timeline-container::after {
+   background-color: black;
+   content: '';
+   position: absolute;
+   left: calc(50% - 2px);
+   width: 2px;
+   height: 100%;
+}
+
+.timeline-item {
+   display: flex;
+   position: relative;
+   margin: 10px 0;
+   width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+   justify-content: flex-end;
+   padding-right: 20px;
+}
+
+.timeline-item:nth-child(even) {
+   justify-content: flex-start;
+   align-self: flex-end;
+   padding-left: 20px;
+}
 
 .project-card {
    @apply border-2 border-black bg-white max-w-sm;
@@ -14,25 +46,41 @@
 }
 
 .project-img {
-  width: 100%;
-  object-fit: cover;
+   width: 100%;
+   object-fit: cover;
 }
+
+
+/* .timeline-item:nth-child(even)>.circle {
+   background-color: white;
+   border:2px solid black;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   top:50%;
+} */
 
 
 .hero-text>* {
    line-height: 100%
 }
 
-.small{
+.small {
    width: 24px;
    height: 24px;
 }
 
-.footer{
+.footer {
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 1rem;
    margin-top: auto;
-  
+
+}
+
+main>* {
+   padding: 0 10rem;
+   margin-bottom: 5rem;
 }

@@ -1,6 +1,6 @@
 .sidebar {
    background-color: white;
-   width: 200px;
+   width: calc(100% / 3);
    height: 100vh;
    display: flex;
    flex-direction: column;
@@ -9,6 +9,7 @@
    right: -100%;
    transition: 850ms;
    padding: 1rem;
+   z-index: 1;
 }
 
 .sidebar.active {

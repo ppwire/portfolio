@@ -2,9 +2,9 @@ import ProjectData from './ProjectData'
 import ProjectItem from './ProjectItem'
 const Project = () => {
    return (
-      <div>
-         <h3 className="font-semibold">My Precious Project</h3>
-
+      <div >
+         <h3 className="font-medium">Project</h3>
+      <br />
          <div className="flex">
             {
                ProjectData.map((el, index) => {
