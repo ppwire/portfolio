@@ -5,6 +5,15 @@ const ProjectData = [
       description: 'testto',
       siteLink: 'https://order-summary-hpmrnoz2d-ppwire.vercel.app/',
       repoLink: 'repoLink'
+   },
+   {
+      image: 'https://i.imgur.com/m6gJf4Z.jpg',
+      title: 'mockup',
+      description: 'testto',
+      siteLink: 'https://order-summary-hpmrnoz2d-ppwire.vercel.app/',
+      repoLink: 'repoLink'
    }
 ]
 export default ProjectData
+
+// /

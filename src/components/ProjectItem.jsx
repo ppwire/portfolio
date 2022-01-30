@@ -9,7 +9,7 @@ const ProjectItem = ({ image, title, description, siteLink, repoLink }) => {
          <img src={image} alt="" className="project-img" />
          <h4>{title}</h4>
          <p>{description}</p>
-         <Button value="REOPOSITORY();" addOnStyle="w-full mb-3" ></Button>
+         <Button value="REOPOSITORY();" addOnStyle="w-full mb-3"></Button>
          <Button value="VISIT();" addOnStyle="w-full" onClick={()=>toExternalSite(siteLink)}></Button>
       </div>
    )
