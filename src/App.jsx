@@ -1,17 +1,22 @@
 import './App.css'
-import Header from './components/Header'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import Project from './components/Project'
 import Timeline from './components/Timeline'
+import Slidein from './components/Slidein'
+import FadeIn from './components/FadeIn'
 
 function App() {
   return (
     <div >
       <main >
         <Hero></Hero>
-        <Timeline></Timeline>
-        <Project></Project>
+        <FadeIn>
+          <Timeline></Timeline>
+        </FadeIn>
+        <Slidein>
+          <Project></Project>
+        </Slidein>
       </main>
       <Footer></Footer>
     </div>
