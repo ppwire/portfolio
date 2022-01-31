@@ -5,7 +5,7 @@ const TimelineItem = ({ data }) => {
             <h5 className="font-bold">{data.title}</h5>
             <p>{data.date}</p>
             <p className="underline font-semibold">{data.status}</p>
-            <p className="text-gray-600">{data.detail}</p>
+            <p className="text-slate-600 font-light">{data.detail}</p>
            
          </div>
       </div>
