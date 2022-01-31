@@ -10,6 +10,7 @@
    transition: 850ms;
    padding: 1rem;
    z-index: 1;
+   box-shadow: -2px -2px 5px gray;
 }
 
 .sidebar.active {
