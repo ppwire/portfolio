@@ -1,10 +1,10 @@
 const ProjectData = [
    {
-      image: 'https://i.imgur.com/OGOcqrf.png',
-      title: 'mockup',
-      description: 'testto',
+      image: 'assets/simple-card.png',
+      title: 'Order summary',
+      description: 'A simple card order summary by frontend mentor challenge',
       siteLink: 'https://order-summary-hpmrnoz2d-ppwire.vercel.app/',
-      repoLink: 'repoLink'
+      repoLink: 'https://order-summary-hpmrnoz2d-ppwire.vercel.app/'
    },
    {
       image: '/assets/travel_site.png',
