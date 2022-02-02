@@ -45,10 +45,24 @@
    box-shadow: 4px 4px 0px #000000;
 }
 
+.project-card > * {
+   line-height: 1;
+}
+
+.project-card-body{
+   padding: 1rem 0;
+}
+
+.project-card-footer > *:not(:last-child){
+   margin-bottom: 1rem;
+}
+
 .project-img {
    width: 100%;
-   height: 300px;
-   object-fit: cover;
+   height:20rem;
+   object-fit: contain;
+   top: 0;
+   left:0;
 }
 
 .hero-text>* {

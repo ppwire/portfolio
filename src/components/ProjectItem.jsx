@@ -7,10 +7,14 @@ const ProjectItem = ({ image, title, description, siteLink, repoLink }) => {
    return (
       <div className="project-card p-5">
          <img src={image} alt="" className="project-img" />
-         <h4>{title}</h4>
-         <p>{description}</p>
-         <Button value="REOPOSITORY();" addOnStyle="w-full mb-3"></Button>
-         <Button value="VISIT();" addOnStyle="w-full" onClick={()=>toExternalSite(siteLink)}></Button>
+         <div className="project-card-body">
+            <h4>{title}</h4>
+            <p>{description}</p>
+         </div>
+         <div className="project-card-footer">
+            <Button value="REOPOSITORY();" addOnStyle="w-full"></Button>
+            <Button value="VISIT();" addOnStyle="w-full" onClick={() => toExternalSite(siteLink)}></Button>
+         </div>
       </div>
    )
 }
