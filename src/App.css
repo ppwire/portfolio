@@ -3,15 +3,13 @@
 }
 
 .card-solid-shadow {
-   @apply border-2 border-black bg-white;
+   @apply border-2 border-black bg-white ;
    box-shadow: 4px 4px 0px #000000;
 }
 
-.card-solid-shadow:disabled {
-   @apply border-2 border-black text-white bg-black;
-   box-shadow: 4px 4px 0px #000000;
+.btn{
+   @apply p-1 transition duration-300 hover:translate-y-1;
 }
-
 .timeline-container {
    display: flex;
    flex-direction: column;

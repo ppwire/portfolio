@@ -11,7 +11,7 @@ const ProjectData = [
       title: 'mockup',
       description: 'testto',
       siteLink: 'https://order-summary-hpmrnoz2d-ppwire.vercel.app/',
-      repoLink: 'repoLink'
+      repoLink: null
    },
    {
       image: 'https://i.imgur.com/m6gJf4Z.jpg',

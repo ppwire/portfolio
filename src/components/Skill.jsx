@@ -4,7 +4,7 @@ const Skill = () => {
       {
          title: 'Framework/Library',
          icon: '/assets/window-icon.svg',
-         list: ['Vue', 'React', 'Express']
+         list: ['Vue', 'Express', 'React']
       },
       {
          title: 'Programming Language',
