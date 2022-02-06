@@ -6,7 +6,6 @@ const TimelineItem = ({ data }) => {
             <p>{data.date}</p>
             <p className="underline font-semibold">{data.status}</p>
             <p className="text-slate-600 font-light">{data.detail}</p>
-           
          </div>
       </div>
    )
