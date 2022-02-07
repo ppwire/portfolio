@@ -4,7 +4,6 @@ import Header from './Header'
 const Hero = () => {
    return (
       <section>
-         <Header></Header>
          <div className="flex flex-wrap gap-10 ">
             <div className="hero-img">
                <img src="/assets/profile-pic-lg.png" alt="pobpoom-hero" className="thick-shadow " />

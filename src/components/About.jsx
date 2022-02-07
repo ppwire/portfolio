@@ -9,7 +9,7 @@ const About = () => {
    return (
       <div className="section mb-4">
          <h3 className="font-medium">Who am I ?</h3>
-         <h4 className="font-extralight mb-2">I’m a full stack developer for Thai Health Insurance PCL, I mostly work with Node and Javascript. The thing that I have passion most is game.</h4>
+         <h4 className="font-extralight mb-2">I am currently working for Thai Health Insurance PCL, I mostly work with Node and Javascript. The thing that I have passion most is game.</h4>
          <Button value="<Resume />" onClick={onClick} addOnStyle="mb-4"></Button>
          <Skill></Skill>
       </div>

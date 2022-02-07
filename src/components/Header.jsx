@@ -34,7 +34,7 @@ const Header = () => {
    ]
 
    return (
-      <header className="flex justify-between align-middle p-4 mb-6 mt-2">
+      <header className="flex justify-between align-middle p-4 mb-6 mt-2 sticky top-0 z-50 mx-8">
          <div className="flex">
             <img className="inline self-baseline" src="/assets/fav-icon.svg" alt="" />
             <h4 className="inline self-baseline">POBPOOM</h4>
