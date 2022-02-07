@@ -1,5 +1,7 @@
 import TimelineItem from './TimelineItem'
+import TimelineLoading from './TimelineLoading'
 import { useEffect, useState } from 'react'
+import FadeIn from './FadeIn'
 const Timeline = () => {
 
    const [timelines, setTimelines] = useState([])
@@ -18,15 +20,21 @@ const Timeline = () => {
 
    return (
       <div id="experiences">
-         <h3 className="lg:text-center">Experiences</h3>
-         <br />
-         <div className="timeline-container">
-            {timelines.map((data, index) => {
-               return <TimelineItem data={data} key={index}></TimelineItem>
-            })}
-         </div>
-      </div>
+         {timelines.length > 0 ?
 
+            <FadeIn>
+               <h3 className="lg:text-center">Experiences</h3>
+               <br />
+               <div className="timeline-container">
+                  {timelines.map((data, index) => {
+                     return <TimelineItem data={data} key={index}></TimelineItem>
+                  })}
+               </div>
+            </FadeIn>
+            :
+            <TimelineLoading></TimelineLoading>
+         }
+      </div>
    )
 }
 
